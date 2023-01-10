@@ -17,7 +17,7 @@ public class ParkingSpotDto {
 	@NotBlank
 	private String corVeiculo;
 	@NotBlank
-	private String nomeReponsavel;
+	private String nomeResponsavel;
 	@NotBlank
 	private String apartamento;
 	@NotBlank
@@ -55,11 +55,11 @@ public class ParkingSpotDto {
 	public void setCorVeiculo(String corVeiculo) {
 		this.corVeiculo = corVeiculo;
 	}
-	public String getNomeReponsavel() {
-		return nomeReponsavel;
+	public String getNomeResponsavel() {
+		return nomeResponsavel;
 	}
-	public void setNomeReponsavel(String nomeReponsavel) {
-		this.nomeReponsavel = nomeReponsavel;
+	public void setNomeResponsavel(String nomeResponsavel) {
+		this.nomeResponsavel = nomeResponsavel;
 	}
 	public String getApartamento() {
 		return apartamento;

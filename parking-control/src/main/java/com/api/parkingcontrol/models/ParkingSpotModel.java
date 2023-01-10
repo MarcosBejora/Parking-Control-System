@@ -32,7 +32,7 @@ public class ParkingSpotModel implements Serializable{
 	@Column(nullable = false)
 	private LocalDateTime dataRegistro;
 	@Column(nullable = false, length = 130)
-	private String nomeReponsavel;
+	private String nomeResponsavel;
 	@Column(nullable = false, length = 30)
 	private String apartamento;
 	@Column(nullable = false, length = 30)
@@ -81,11 +81,11 @@ public class ParkingSpotModel implements Serializable{
 	public void setDataRegistro(LocalDateTime dataRegistro) {
 		this.dataRegistro = dataRegistro;
 	}
-	public String getNomeReponsavel() {
-		return nomeReponsavel;
+	public String getNomeResponsavel() {
+		return nomeResponsavel;
 	}
-	public void setNomeReponsavel(String nomeReponsavel) {
-		this.nomeReponsavel = nomeReponsavel;
+	public void setNomeResponsavel(String nomeResponsavel) {
+		this.nomeResponsavel = nomeResponsavel;
 	}
 	public String getApartamento() {
 		return apartamento;

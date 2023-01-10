@@ -10,5 +10,8 @@ import com.api.parkingcontrol.models.ParkingSpotModel;
 @Repository
 public interface ParkingSpotRepository extends JpaRepository<ParkingSpotModel, UUID> {
 	
-
+	boolean existsByPlacaVeiculo(String placaVeiculo);
+	boolean existsByNumeroDaVaga(String numeroDaVaga);
+	boolean existsByBlocoAndApartamento(String bloco, String apartamento);
+	
 }
